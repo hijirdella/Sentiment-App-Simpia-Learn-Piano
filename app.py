@@ -8,7 +8,7 @@ import numpy as np
 from scipy import sparse
 
 # === Load model dan komponen ===
-model = joblib.load('Random_Forest_Original_model_Simpia_Learn_Piano_Fast.pkl')
+model = joblib.load('Ridge_Classifier_Original_model_Simpia_Learn_Piano_Fast.pkl')
 vectorizer = joblib.load('tfidf_vectorizer_Simpia_Learn_Piano_Fast.pkl')
 label_encoder = joblib.load('label_encoder_Simpia_Learn_Piano_Fast.pkl')
 
